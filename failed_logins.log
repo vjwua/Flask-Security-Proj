@@ -643,3 +643,565 @@ INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:19:37] "GET /account/account HTTP/1.
 INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:19:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:19:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [25/Nov/2024 14:19:38] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:49] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:50] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:50] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:56] "GET /static/images/programmer.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:56] "GET /static/images/house.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 12:43:56] "GET /static/images/education.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:01:52] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:01:53] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:01:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:01:53] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:21:20] "[35m[1mGET /account/account HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:21:21] "GET /account/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:21:21] "GET /account/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:21:21] "GET /account/account?__debugger__=yes&cmd=resource&f=console.png&s=LoShPqeA7882SKQHQmlq HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:21:21] "GET /account/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:15] "[35m[1mGET /account/account HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:16] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:16] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:16] "GET /account/account?__debugger__=yes&cmd=resource&f=console.png&s=oUJXQjqGCfWHhftDRPNd HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:16] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:38] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:39] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:23:39] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:19] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:20] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:20] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:33] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:48:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:56] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:57] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:57] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:57] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:49:59] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:27] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:28] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:28] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:31] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:50:45] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:13] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:14] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:15] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:17] "[33mPOST /change_password_request HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:36] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:37] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:37] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:39] "[35m[1mPOST /account/change_password_request HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:40] "GET /account/change_password_request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:40] "GET /account/change_password_request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:40] "GET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png&s=UnkoIQCPdw1dygEQnvGP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:40] "GET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:49] "[35m[1mGET /account/account HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:51] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:51] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:51] "GET /account/account?__debugger__=yes&cmd=resource&f=console.png&s=UnkoIQCPdw1dygEQnvGP HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:51:51] "[36mGET /account/account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:47] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:49] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:50] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:53] "[35m[1mPOST /account/change_password_request HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:54] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:54] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:53:54] "GET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png&s=OVyR7tlQ6F7gXMNvB8Ef HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:03] "[35m[1mPOST /account/change_password_request HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:04] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:04] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:04] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png&s=OVyR7tlQ6F7gXMNvB8Ef HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:04] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:06] "[35m[1mPOST /account/change_password_request HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:07] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:07] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:07] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png&s=OVyR7tlQ6F7gXMNvB8Ef HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:17] "[35m[1mPOST /account/change_password_request HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:18] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:18] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:18] "[36mGET /account/change_password_request?__debugger__=yes&cmd=resource&f=console.png&s=OVyR7tlQ6F7gXMNvB8Ef HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:27] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:28] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:28] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:30] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:54:31] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:33] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:34] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:34] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:35] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:55:36] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:23] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:24] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:27] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:28] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:44] "POST /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 13:56:45] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:12] "[36mGET /static/images/programmer.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:12] "[36mGET /static/images/house.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:12] "[36mGET /static/images/education.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:14] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:15] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:24] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:24] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:25] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:38] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W4yw.-nCq-9nqJPapBKkUoV5U1W_-ZHA HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:38] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:39] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:51] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:52] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:02:52] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:09] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:09] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:10] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:47] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W4-g.QIE5q_8-EAuok_I4zncxo54YU6w HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:47] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:03:48] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:03] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:03] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:04] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:09] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W5MA.dVmPuHFhv89HRWJnsAX1i00zfT8 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:09] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:10] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:51] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W5MA.dVmPuHFhv89HRWJnsAX1i00zfT8 HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:51] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:04:52] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:01] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:01] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:02] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:09] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W5ag.8OqL7a3TUwYfMpFNXIVcH46xi9o HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:09] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:10] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:10] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:27] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:30] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:30] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:39] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:39] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:40] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:49] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W5jw.1hOCSkiFYCYGjZzTjuTGVU236sc HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:49] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:49] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:49] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:05:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:49] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:49] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:50] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:56] "[35m[1mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:57] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:57] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:57] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU?__debugger__=yes&cmd=resource&f=console.png&s=WtuMYP8wpqTyMblHKP3e HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:06:58] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:32] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W51g.q1JRex7g8l_B0UweeCyZ329uvVU HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:32] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:33] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:46] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:46] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:47] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:47] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:53] "[35m[1mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:54] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:54] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:54] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE?__debugger__=yes&cmd=resource&f=console.png&s=q8VHxwQUHwblKovoZ4MY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:07:54] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:33] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6Dw.YmklcLb__n5UPa4VE95Lgv0kSnE HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:33] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:34] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:41] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:43] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:44] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:49] "[35m[1mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:50] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:50] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:50] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc?__debugger__=yes&cmd=resource&f=console.png&s=fs2yZAxJzUSSk2qSIbGL HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:10:50] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:15] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W6vg.zWR-gu3LgfH0q0Zl4Pj5UTYJ9uc HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:15] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:17] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:25] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:26] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:27] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:32] "[35m[1mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:33] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:33] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:33] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk?__debugger__=yes&cmd=resource&f=console.png&s=wjcRVJ4NMmicbVf05bIO HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:33] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:46] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W66Q.cwnz8c6J2Ywlp-j_B79UQOHWthk HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:47] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:48] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:54] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:54] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:11:55] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:12:05] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7Bw.H3A2vVShINxaV_rgEItGgiJaXGE HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:12:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:12:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:00] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7Bw.H3A2vVShINxaV_rgEItGgiJaXGE HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:01] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:02] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:02] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:02] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:08] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:08] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:09] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:16] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7UQ.bHxsuGg2KSvTJf9rDT2uGD-PtPY HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:17] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\account\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:13:31] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:51] "[33mPOST /change_password HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:53] "[32mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7UQ.bHxsuGg2KSvTJf9rDT2uGD-PtPY HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:53] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:54] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:54] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:14:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:03] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:03] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:03] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:04] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:09] "[35m[1mGET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7xA.sF5UIiSIEWuRQzjcNPAY2-2fz9s HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:10] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7xA.sF5UIiSIEWuRQzjcNPAY2-2fz9s?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:10] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7xA.sF5UIiSIEWuRQzjcNPAY2-2fz9s?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:10] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7xA.sF5UIiSIEWuRQzjcNPAY2-2fz9s?__debugger__=yes&cmd=resource&f=console.png&s=Idv6rPSPubxR2okZ7rOX HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:10] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W7xA.sF5UIiSIEWuRQzjcNPAY2-2fz9s?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:54] "[32mPOST /account/change_password_request HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:54] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:15:55] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:03] "GET /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W79w.fGCZ8LPQ_b0fqvRAGlBXFlPzf6U HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:04] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:07] "[32mPOST /account/change_password/InZqd2l2YXN5dWtAZ21haWwuY29tIg.Z0W79w.fGCZ8LPQ_b0fqvRAGlBXFlPzf6U HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:07] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:08] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:14] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:14] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:15] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:root:Failed login attempt for vjwivasyuk@gmail.com at 2024-11-26 14:16:22.340536
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:22] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:root:Failed login attempt for vjwivasyuk@gmail.com at 2024-11-26 14:16:32.422422
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:32] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:16:33] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:23] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:23] "GET /auth/two_factor_auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:54] "[32mPOST /auth/two_factor_auth HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:54] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:17:55] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:20] "GET /auth/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:21] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:23] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:24] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:24] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:24] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:25] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:25] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:root:Failed login attempt for vjwivasyuk@gmail.com at 2024-11-26 14:20:29.596861
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:29] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:root:Failed login attempt for vjwivasyuk@gmail.com at 2024-11-26 14:20:37.529179
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:37] "POST /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:49] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:49] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:50] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:20:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:21:05] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:21:05] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:21:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:21:06] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:10] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:12] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:12] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:30] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:30] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:31] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:39] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:40] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:40] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:47] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:47] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:22:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:12] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:13] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:13] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:17] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:17] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:18] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:28] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:29] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:36] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:23:37] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:21] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:23] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:28] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:28] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:29] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:44] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:44] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:59] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:24:59] "GET /auth/two_factor_auth HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:07] "[32mPOST /auth/two_factor_auth HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:07] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -

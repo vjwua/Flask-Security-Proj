@@ -5,8 +5,11 @@ from wtforms.validators import DataRequired, Length, Email, Regexp, EqualTo, Val
 from flask_login import current_user
 from app.auth.models import User
 
-class ChangePasswordForm(FlaskForm):
+class ChangePasswordRequestForm(FlaskForm):
     email = StringField("Електронна пошта", validators=[DataRequired("Це поле обовʼязкове"), Email()])
+    submit = SubmitField("Змінити")
+
+class ChangePasswordForm(FlaskForm):
     password = PasswordField("Новий пароль", validators=[
                             DataRequired("Пароль повинен від 8 символів, щонайменше одну велику та малу літеру, цифру та спецсимвол."),
                             Regexp("^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$")

@@ -1,18 +1,25 @@
 from flask import flash, render_template, request, redirect, url_for
 from flask_login import current_user, login_required
+from flask_mail import Message
 
-from app import app, bcrypt
-from .forms import ChangePasswordForm, UpdateAccountForm
+from app import app, bcrypt, mail
+from .forms import ChangePasswordForm, ChangePasswordRequestForm, UpdateAccountForm
 from app.auth.models import db, User
 from app.auth.views import confirm_token
 
 from . import account_blueprint
 
 from datetime import datetime
+from itsdangerous import URLSafeTimedSerializer
 import os
 import email_validator
 import secrets
 from PIL import Image
+
+serializer = URLSafeTimedSerializer(app.secret_key)
+
+def generate_confirmation_token(email):
+    return serializer.dumps(email, salt='password-reset-salt')
 
 def get_user_info():
     user_os = os.name
@@ -36,7 +43,7 @@ def info():
 @login_required
 def account():
     form = UpdateAccountForm()
-    cp_form = ChangePasswordForm()
+    cp_form = ChangePasswordRequestForm()
 
     if form.validate_on_submit():
         current_user.username = form.username.data
@@ -65,35 +72,52 @@ def save_picture(form_picture):
     form_picture.save(picture_path)
     return picture_fn
 
-@account_blueprint.route('/change_password', methods=['POST'])
-def change_password():
-    cp_form = ChangePasswordForm()
+@account_blueprint.route('/change_password_request', methods=['POST', 'GET'])
+def change_password_request():
+    cp_form = ChangePasswordRequestForm()
 
     if cp_form.validate_on_submit():
         user = User.query.filter_by(email=cp_form.email.data).first()
 
         if user:
-            new_password = cp_form.password.data
-            confirm_new_password = cp_form.confirm_password.data
-
-            if user:
-                if new_password == confirm_new_password:
-                    hashed_password = bcrypt.generate_password_hash(new_password).decode('utf-8')
-                    user.password = hashed_password
-                    db.session.commit()
-
-                    flash("Пароль успішно змінено", category=("success"))
-                    return redirect(url_for('account_bp.account'))
-                else:
-                    flash("Паролі не збігаються", category="danger")
+            token = generate_confirmation_token(user.email)
+            reset_url = url_for('account_bp.change_password', token=token, _external=True)
+            html = f'Натисніть на посилання для відновлення паролю: <a href="{reset_url}">Відновити пароль</a>'
+            msg = Message('Відновлення паролю', recipients=[user.email], html=html)
+            mail.send(msg)
+            flash('Посилання для відновлення паролю надіслано на вашу пошту.')
+            return redirect(url_for("account_bp.account")) 
         else:
             flash("Користувача з такою поштою не існує", category="danger")
+    else:
+        flash("Виникла помилка", category=("danger"))
+    return redirect(url_for('account_bp.account'))
 
-        flash("Ви не змінили пароль", category=("danger"))
+@account_blueprint.route('/change_password/<token>', methods=['POST', 'GET'])
+def change_password(token):
+    try:
+        email = serializer.loads(token, salt='password-reset-salt', max_age=20) #60min
+    except:
+        flash('Посилання неправильне або сплив термін дії токену.', category=("warning"))
         return redirect(url_for('account_bp.account'))
 
-    flash("Ви не набрали пароль. Спробуйте ще раз", category=("danger"))
-    return redirect(url_for('account_bp.account'))
+    cp_form = ChangePasswordForm()
+
+    if cp_form.validate_on_submit():
+        user = User.query.filter_by(email=email).first_or_404()
+        new_password = cp_form.password.data
+        confirm_new_password = cp_form.confirm_password.data
+
+        if new_password == confirm_new_password:
+            hashed_password = bcrypt.generate_password_hash(new_password).decode('utf-8')
+            user.password = hashed_password
+            db.session.commit()
+
+            flash("Пароль успішно змінено", category=("success"))
+            return redirect(url_for('account_bp.account'))
+        else:
+            flash("Паролі не збігаються", category="danger")
+    return render_template('change_password.html', cp_form=cp_form)
 
 @account_blueprint.route("/confirm/<token>")
 @login_required

@@ -96,7 +96,7 @@ def login():
             if user.failed_login_attempts is None:
                 user.failed_login_attempts = 0
             if user.failed_login_attempts >= MAX_LOGIN_ATTEMPTS: #TBW
-                flash("Ваш акаунт заблокований через занадто багато спроб входу. Спробуйте пізніше.", category=("warning"))
+                flash("Ваш акаунт заблокований через занадто багато спроб входу. Спробуйте пізніше або зверніться до адміністратора.", category=("danger"))
                 return redirect(url_for('auth_bp.login'))
             if user.validate_password(form.password.data):
                 if form.remember.data:
@@ -111,11 +111,12 @@ def login():
                         return redirect(url_for('account_bp.account'))
                     else:
                         flash("Капча введена неправильно, спробуйте ще раз", category=("warning"))
-            else:
-                flash("Ви не запамʼятали себе, введіть дані ще раз", category=("warning"))
+                else:
+                    flash("Ви не запамʼятали себе, введіть дані ще раз", category=("warning"))
             user.failed_login_attempts += 1
             db.session.commit()
             logging.info(f'Failed login attempt for {form.email.data} at {datetime.datetime.now()}')
+            flash(f"Пароль введений неправильно, ви маєте ще {6 - user.failed_login_attempts} спроб(а)", category=("warning"))
         else:
             flash("Вхід не виконано", category=("warning"))
             return redirect(url_for('auth_bp.login'))
@@ -138,7 +139,8 @@ def two_factor_auth():
         if totp.verify(form.code.data):
             login_user(user)
             session.pop('2fa_user_id', None)
-            
+            user.failed_login_attempts = 0
+            db.session.commit()
             flash("Вхід з 2FA виконано", category=("success"))
             return redirect(url_for('account_bp.account'))
         else:
