@@ -38,6 +38,7 @@
                 </form>
                 <br>
                 <h4 class="text-center">Немає аккаунту? Ви можете <a href={{url_for("auth_bp.register")}}>зареєструватися</a></h4>
+                <h4 class="text-center">Увійти за допомогою <a href="{{ url_for("auth_bp.oauth2_authorize", provider='google') }}">Google</a></h4>
             </div>
         </div>
     </div>

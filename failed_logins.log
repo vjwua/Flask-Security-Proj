@@ -1205,3 +1205,411 @@ INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:07] "GET /account/account HTTP/1.
 INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 14:25:09] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:54:50] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:54:51] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:54:52] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:54:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:55:35] "[35m[1mGET /auth/login HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:55:36] "GET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:55:36] "GET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:55:36] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=EY9T7um5B0om7fVLi8pG HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 15:55:36] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:07:25] "[32mGET /account/account HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:07:25] "[35m[1mGET /auth/login?next=/account/account HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:07:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:07:26] "[36mGET /auth/login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:07:26] "GET /auth/login?__debugger__=yes&cmd=resource&f=console.png&s=z5YZjsW5uSLElCLqWZhl HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:35] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:36] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:41] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:42] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:08:43] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:09:24] "[35m[1mGET /auth/authorize/google HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:09:25] "GET /auth/authorize/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:09:25] "GET /auth/authorize/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:09:25] "GET /auth/authorize/google?__debugger__=yes&cmd=resource&f=console.png&s=FyCdI1wyJ4NsyirI1qmc HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:09:25] "GET /auth/authorize/google?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:43] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:44] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:44] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:44] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:11:45] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:12:09] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:00] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:02] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:02] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:21] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:22] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:14:22] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:01] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:22] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:23] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:24] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:15:24] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:27] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:34] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:36] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:16:36] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:17:24] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:20:04] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:22:01] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:26:40] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:26:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:26:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:26:41] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:26:42] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:27:26] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:27:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:27:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:27:27] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:28:57] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:07] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:07] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:08] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:08] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:31:10] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:32:19] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:34:13] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:34:14] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:34:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:34:15] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:34:15] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:35:37] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:35:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:35:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:35:38] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:35:39] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:37:43] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:40:30] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:41:08] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:41:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:41:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:41:10] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:41:10] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:44:17] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:44:31] "[33mGET /auth/callback/google%20flowName=GeneralOAuthFlow HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:46:26] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:47:05] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:47:42] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:15] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:19] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:20] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:20] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:48:20] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:03] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:55] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:56] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:56] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:50:57] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 16:58:48] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:01:00] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:01:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:01:01] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:01:01] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:01:02] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 17:03:38] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:06:29] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:06:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:06:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:06:30] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:06:31] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:08:34] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:12:54] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:20] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:21] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:21] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:22] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:13:49] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:05] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:25] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:35] "[33mGET /callback HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:42] "[33mGET /auth/authorize/callback HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:54] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:14:59] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:00] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:00] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:01] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:05] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:31] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:36] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:48] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:15:55] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:16:08] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:16:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:16:09] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:16:10] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:16:10] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:01] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:11] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:17] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:26] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:28] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:34] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:47] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:53] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:17:59] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:18] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:23] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:28] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:38] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:51] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:18:54] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:03] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:05] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:13] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:15] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:19] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:23] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:31] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:34] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:39] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:42] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:44] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:45] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:49] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:19:52] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:20:54] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:03] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:05] "GET /static/css/styles.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:05] "GET /static/js/scripts.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:05] "GET /static/images/favicon.ico HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:08] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:17] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:20] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:22] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:22] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:23] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:28] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:31] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:32] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:35] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:36] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:21:37] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:22:26] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:22:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:22:27] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:22:27] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:22:28] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:19] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:28] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:30] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:30] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:30] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:38] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:39] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:39] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:40] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:42] "GET /auth/login?next=/account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:43] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:44] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:25:44] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:26:09] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:42] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:47] "[32mGET /auth/callback/google?state=6rC_nUSQqkh1qPOL_l3_lA&code=4/0AeanS0ZjC5aE0gPYHwYhDMaJ6B3z2ViNv989AR7BqqT-CfWBhBlrjsxpxK7LmLYPBBF4hg&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=0&prompt=consent HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:47] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:48] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:48] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:54] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:54] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:55] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:27:56] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:02] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:03] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:04] "[36mGET /static/images/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:04] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:10] "[35m[1mGET /auth/callback/google?error=access_denied&state=J1fUEQ9Uq_zjDAoxUcR0zg HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:11] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:11] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:11] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png&s=1CRLHyC1rkcCG9kEqApD HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:11] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:24] "[35m[1mGET /auth/callback/google?error=access_denied&state=J1fUEQ9Uq_zjDAoxUcR0zg HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:27] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:27] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:27] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png&s=1CRLHyC1rkcCG9kEqApD HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:27] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:37] "[32mGET /auth/callback/google?error=access_denied&state=J1fUEQ9Uq_zjDAoxUcR0zg HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:37] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:38] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:28:42] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:44] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:48] "[35m[1mGET /auth/callback/google?state=AYiikez6pS9Q_Tp-1m1g6w&code=4/0AeanS0agdHKMm2fPHWf5OUslSS-8C1GQ_UObTm2p8AwJoraow84UsGv6S3KJCznkB6c9JA&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=pnu.edu.ua&prompt=consent HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:49] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:49] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:49] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png&s=TTlBIef3v4VYmTVlej7a HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:29:49] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:30:56] "[31m[1mGET /auth/callback/google?state=AYiikez6pS9Q_Tp-1m1g6w&code=4/0AeanS0agdHKMm2fPHWf5OUslSS-8C1GQ_UObTm2p8AwJoraow84UsGv6S3KJCznkB6c9JA&scope=email+openid+https://www.googleapis.com/auth/userinfo.email&authuser=1&hd=pnu.edu.ua&prompt=consent HTTP/1.1[0m" 401 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:31:09] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:31:57] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:00] "[35m[1mGET /auth/callback/google?state=0gB8RuBQI2u8hEGiEYD9gg&code=4/0AeanS0aur2mv3FR6MJ6Zl1Hpt9RxtTrACG0OoYlK2SmGvUf6vqKaWheNQU56D1ZkkYiSfA&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=1&hd=pnu.edu.ua&prompt=none HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:01] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:01] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:01] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png&s=TaGPYBxLM6Dwt92uPV7c HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:01] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:13] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:16] "[35m[1mGET /auth/callback/google?state=nGRsDmvNUnfPPJF1Zp6hiw&code=4/0AeanS0YjtSOPNJnbdztJKWwdrLupI7USk9QJA1k77TRqfW0fFoTKnCYR3add7oy7jcygpg&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=1&hd=pnu.edu.ua&prompt=none HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:17] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:17] "[36mGET /auth/callback/google?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:32:17] "GET /auth/callback/google?__debugger__=yes&cmd=resource&f=console.png&s=v8V2e4TzCTQJhqU7HJtX HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:14] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:18] "[32mGET /auth/callback/google?state=uGC4uj7SJXavg7jTcIXL9A&code=4/0AeanS0a_LN6VsJ7ZjY3Skak9FPh0MwGXj_KBitHPrlyeywArLO4pCXSbXSNBd8GktAmdLQ&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=1&hd=pnu.edu.ua&prompt=none HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:18] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:19] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:19] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:27] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:28] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:28] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:31] "GET /auth/users HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:32] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:32] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:33] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:34] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:34] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:34] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:35] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:34:37] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug: * Detected change in 'L:\\pythonlearn\\flask_security_project\\app\\auth\\views.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-121-367
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:29] "[32mGET /auth/authorize/google HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:33] "[32mGET /auth/callback/google?state=qxY_IH-_7Ym8cKikIFvW4A&code=4/0AeanS0Y8_0ZYGWwSNZl0RzIz451gYMLU1h1u5Dl7nFSGC1g7uT14-ZjhQ-Vumq_fNCyTgQ&scope=email+https://www.googleapis.com/auth/userinfo.email+openid&authuser=1&hd=pnu.edu.ua&prompt=none HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:33] "GET /account/account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:34] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:34] "[36mGET /static/profile_pics/default.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:39] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:40] "GET /auth/login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [26/Nov/2024 18:36:41] "[36mGET /static/js/scripts.js HTTP/1.1[0m" 304 -
