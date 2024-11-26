@@ -1,6 +1,6 @@
-*/__pycache__
-*/app/__pycache__
-*/app/*/__pycache__
-*/.vscode/settings.json
-*/migrations/
-*/flask-security-proj
+__pycache__
+app/__pycache__
+app/*/__pycache__
+.vscode/settings.json
+migrations/
+flask-security-proj
