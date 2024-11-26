@@ -1,0 +1,131 @@
+{% extends 'base.html' %}
+{% block title %} Інфо {% endblock %}
+
+{% block body %}
+<section class="page-section" id="add_cookie">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">Додати кукі</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form id="contactForm" action="/cookies/add_cookie" method="POST">
+                <div class="form-floating mb-3">
+                    <input class="form-control" 
+                            id="key" 
+                            type="text"
+                            name="key"
+                    <label for="name">Ключ</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input class="form-control" 
+                            id="value" 
+                            type="text"
+                            name="value"
+                    <label for="password">Значення</label>
+                </div>        
+                <div class="form-floating mb-3">
+                    <input class="form-control" 
+                            id="max_age" 
+                            type="number"
+                            name="max_age" required
+                    <label for="password">Тривалість (в сек.)</label>
+                </div>                    
+                <!-- Submit Button-->
+                <button class="btn btn-primary btn-xl" id="submitButton" type="submit">Створити</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="page-section" id="delete_cookie">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">Видалити кукі</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form id="contactForm" action="/cookies/remove_cookie" method="GET">
+                <div class="form-floating mb-3">
+                    <input class="form-control" 
+                            id="key_to_remove" 
+                            type="text"
+                            name="key"
+                    <label for="name">Ключ</label>
+                </div>
+                <!-- Submit Button-->
+                <button class="btn btn-secondary btn-xl" id="submitButton" type="submit">Знищити</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="page-section" id="delete_cookie">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">Видалити всі кукі</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form id="contactForm" action="/cookies/remove_all_cookies" method="GET">
+                <button class="btn btn-danger btn-xl" id="submitButton" type="submit">Знищити</button>
+            </form>
+        </div>
+    </div>
+</section>
+<section class="page-section" id="cookie_table">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">Таблиця кукі</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row">
+        <div class="container col-md-8 col-lg-8">
+            <table class="table table-secondary">
+                <thead class="table-primary">
+                    <tr class = "cookiesTable">
+                        <th class = "cookiesTable">Key</th>
+                        <th class = "cookiesTable">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% set non_session_cookies = {} %}
+                    {% for key, value in cookies.items() %}
+                        {% if key != 'session' %}
+                            {% if key != 'remember_token' %}
+                                {% set _ = non_session_cookies.update({key: value}) %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if non_session_cookies|length > 0 %}
+                        {% for key, value in non_session_cookies.items() %}
+                            <tr class = "cookiesTable">
+                                <td class = "cookiesTable">{{ key }}</td>
+                                <td class = "cookiesTable">{{ value }}</td>
+                            </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="2"><strong>Кукі для виводу відсутні</strong></td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

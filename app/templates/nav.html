@@ -1,0 +1,37 @@
+{% set menu = {
+    "Резюме": "00"
+} %}
+
+{% block extra_scripts %}
+{% endblock %}
+
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="{{url_for("home_bp.home")}}">Моя сторінка</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Меню
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                {%for name, url in menu.items() %}
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href={{url}}> {{ name | upper}} </a></li>
+                {% endfor %}
+
+                {% if current_user.is_authenticated %}
+                    <div class="btn-group">
+                        <button class="btn btn-secondary dropdown-toggle " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            {{ current_user.username }}
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href={{ url_for('account_bp.account') }}> Профіль </a>
+                            <a class="nav-link py-3 px-0 px-lg-3 rounded" href={{ url_for('auth_bp.users') }}> Користувачі </a>
+                        </div>
+                    </div>
+                {% else %} <!--userId != None-->
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href={{ url_for('auth_bp.login') }}> Увійти </a></li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</nav>

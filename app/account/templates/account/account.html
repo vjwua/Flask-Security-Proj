@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+{% block title %} Навчання {% endblock %}
+
+{% block body %}
+<header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <img class="img-thumbnail rounded-circle account-img" width="200" height="200" src={{url_for('static', filename='profile_pics/' + current_user.image_file)}}>
+        <h1>Ласкаво просимо, {{ current_user.username }}!</h1>
+        <h3>Надіюсь, вам тут буде затишно</h3>
+        {% if current_user.about_me %}
+            <h4>Про мене:</h4>
+            <p>{{ current_user.about_me }}</p>
+        {% endif %}
+        {% if current_user.last_seen %}
+            <p>Last Seen: {{ current_user.last_seen }}</p>
+        {% endif %}
+        <form id="logoutButton" action={{ url_for("account_bp.info") }}>
+            <input class="btn btn-primary btn-xl" type="submit" value="Перейти до info" />
+        </form>
+        {% if current_user.is_two_factor_enabled %}
+            <form id="logoutButton" action={{ url_for("auth_bp.disable_2fa") }}>
+                <input class="btn btn-primary btn-xl" type="submit" value="Вимкнути 2FA аутентифікацію" />
+            </form>
+        {% else %}
+            <form id="logoutButton" action={{ url_for("auth_bp.enable_2fa") }}>
+                <input class="btn btn-primary btn-xl" type="submit" value="Увімкнути 2FA аутентифікацію" />
+            </form>
+        {% endif %}
+        <form id="logoutButton" action={{ url_for("auth_bp.logout") }}>
+            <input class="btn btn-primary btn-xl" type="submit" value="Вийти" />
+        </form>
+    </div>
+</header>
+<section class="page-section" id="update_account_data">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Оновлення профілю</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <form id="contactForm" action={{url_for("account_bp.account")}} method="POST" novalidate enctype="multipart/form-data">
+                    {% from "_render_field.html" import render_field %}
+                    {{form.hidden_tag()}}
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.username)}}
+                    </div>
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.email)}}
+                    </div>
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.about_me)}}
+                    </div>
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.picture)}}
+                    </div>
+                    {{form.submit(class_='btn btn-primary btn-xl')}}
+                </form>                
+            </div>
+        </div>
+    </div>
+</section>
+<section class="page-section" id="change_password">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">Змінити пароль</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-xl-7">
+            <form id="contactForm" action="/change_password" method="POST">
+                {% from "_render_field.html" import render_field %}
+                {{ cp_form.csrf_token }}
+                <div class="form-floating mb-3">
+                    {{ render_field(cp_form.email) }}
+                </div>
+                <div class="form-floating mb-3">
+                    {{ render_field(cp_form.password) }}
+                </div>
+                <div class="form-floating mb-3">
+                    {{ render_field(cp_form.confirm_password) }}
+                </div>
+                {{cp_form.submit(class_='btn btn-primary btn-xl')}}
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

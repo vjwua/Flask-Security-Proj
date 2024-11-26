@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %} Інфо {% endblock %}
+
+{% set username = session['name'] %}
+{% set userId = session['userId'] %}
+
+{% block body %}
+<header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <h1>Ласкаво просимо, {{ username }}!</h1>
+        <h3>Надіюсь, вам тут буде затишно</h3>
+        <h3>(ваш унікальний id - {{ userId }})</h3>
+
+        <form id="logoutButton" action={{ url_for('auth_bp.logout') }}>
+            <input class="btn btn-primary btn-xl" type="submit" value="Вийти" />
+        </form>
+    </div>
+</header>
+{% endblock %}

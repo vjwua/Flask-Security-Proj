@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %} Вхід {% endblock %}
+
+{% block body %}
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Увійти</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <form id="contactForm" action={{url_for("auth_bp.login")}} method="POST" novalidate>
+                    {% from "_render_field.html" import render_field %}
+                    {{form.csrf_token}}
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.email)}}
+                    </div>
+                    <div class="form-floating mb-3">
+                        {{ render_field(form.password)}}
+                    </div>
+                    <div class="form-floating mb-3">
+                        <div class="form-check mb-3">
+                            {{form.remember}} {{form.remember.label}} 
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <div class="form-check mb-3">
+                            {{ captcha_html(captcha)|safe }}
+                        </div>
+                    </div>
+                    {{form.submit(class_='btn btn-primary btn-xl ')}}
+                </form>
+                <br>
+                <h4 class="text-center">Немає аккаунту? Ви можете <a href={{url_for("auth_bp.register")}}>зареєструватися</a></h4>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

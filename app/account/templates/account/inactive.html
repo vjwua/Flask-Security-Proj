@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block title %} Зміна паролю {% endblock %}
+
+{% block body %}
+<header class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+        <h1>Ви ще не підтвердили свій аккаунт. Будь-ласка, перевірте свою пошту або перенадішліть його:</h1>
+
+        <form id="resendButton" action={{ url_for('auth_bp.resend_confirmation') }}>
+            <input class="btn btn-primary btn-xl" type="submit" value="Перенадіслати" />
+        </form>
+    </div>
+</header>
+{% endblock %}

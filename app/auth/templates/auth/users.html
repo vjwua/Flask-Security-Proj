@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %} Користувачі {% endblock %}
+
+{% block body %}
+<section class="page-section" id="todo_table">
+    <!-- Section Heading-->
+    <h2 class="page-section-heading text-center text-primary mb-0">База даних користувачів</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+</section>
+<section>
+    <div class="row justify-content-center">   
+        <div class="container col-md-8 col-lg-8">
+            <table class="table table-light">
+                <thead class="table-primary">
+                    <tr class = "userTable">
+                        <th class = "userTable">ID</th>
+                        <th class = "userTable">Імʼя</th>
+                        <th class = "userTable">Пошта</th>
+                        <th class = "userTable">Фото</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in all_users %}
+                    <tr>
+                        <th scope="row">{{ user.id }}</th>
+                        <td class = "userTable">{{ user.username }}</td>
+                        <td class = "userTable">{{ user.email }}</td>
+                        <td class="databaseOutputTable"><img src="{{url_for('static', filename='profile_pics/' + user.image_file)}}" width="100" height="100" ></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

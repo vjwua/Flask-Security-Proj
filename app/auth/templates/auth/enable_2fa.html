@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block title %} Вхід {% endblock %}
+
+{% block body %}
+<section class="page-section" id="contact">
+    <div class="container">
+        <!-- Contact Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Увімкнення 2FA</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- Contact Section Form-->
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7">
+                <h4 class="text-center">
+                    <ul>
+                        Встановіть <a href="https://www.authy.com" target="_blank">Twilio Authy</a> на ваш смартфон.</li>
+                        Налаштуйте новий ідентифікатор,відсканувавши QR-код нижче.</li>
+                        Після сканування, натисніть,будь ласка, <a href="{{ url_for("account_bp.account")}}"> на це посилання</a>.</li>
+                      </ul>
+                </h4>
+                <form id="contactForm" action={{url_for("auth_bp.two_factor_auth")}} method="POST" novalidate>
+                    <img src="data:image/png;base64,{{ qr_code_base64 }}" width="150vh" alt="QR Code for 2FA">
+                    <p class="text-white-50 mb-5">
+                        Або вручну введіть цей код у додатку: <strong>{{ current_user.secret_token }}</strong>
+                    </p>
+                    <hr>
+                </form>
+                <br>
+                <h4 class="text-center"> <a href={{url_for("auth_bp.login")}}>Повернутися назад</a></h4>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
