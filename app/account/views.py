@@ -89,9 +89,8 @@ def change_password_request():
             return redirect(url_for("account_bp.account")) 
         else:
             flash("Користувача з такою поштою не існує", category="danger")
-    else:
-        flash("Виникла помилка", category=("danger"))
-    return redirect(url_for('account_bp.account'))
+    return render_template('confirm_change_password.html', cp_form=cp_form)
+
 
 @account_blueprint.route('/change_password/<token>', methods=['POST', 'GET'])
 def change_password(token):

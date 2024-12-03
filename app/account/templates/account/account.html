@@ -26,6 +26,9 @@
                 <input class="btn btn-primary btn-xl" type="submit" value="Увімкнути 2FA аутентифікацію" />
             </form>
         {% endif %}
+        <form id="confirmChangePasswordButton" action={{ url_for("account_bp.change_password_request") }}>
+            <input class="btn btn-primary btn-xl" type="submit" value="Підтвердити зміну паролю" />
+        </form>
         <form id="logoutButton" action={{ url_for("auth_bp.logout") }}>
             <input class="btn btn-primary btn-xl" type="submit" value="Вийти" />
         </form>
@@ -62,28 +65,6 @@
                     {{form.submit(class_='btn btn-primary btn-xl')}}
                 </form>                
             </div>
-        </div>
-    </div>
-</section>
-<section class="page-section" id="change_password">
-    <!-- Section Heading-->
-    <h2 class="page-section-heading text-center text-primary mb-0">Змінити пароль</h2>
-    <!-- Icon Divider-->
-    <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-        <div class="divider-custom-line"></div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-8 col-xl-7">
-            <form id="contactForm" action={{url_for("account_bp.change_password_request")}} method="POST">
-                {% from "_render_field.html" import render_field %}
-                {{ cp_form.csrf_token }}
-                <div class="form-floating mb-3">
-                    {{ render_field(cp_form.email) }}
-                </div>
-                {{cp_form.submit(class_='btn btn-primary btn-xl')}}
-            </form>
         </div>
     </div>
 </section>

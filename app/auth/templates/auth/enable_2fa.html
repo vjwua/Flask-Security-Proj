@@ -19,12 +19,12 @@
                     <ul>
                         Встановіть <a href="https://www.authy.com" target="_blank">Twilio Authy</a> на ваш смартфон.</li>
                         Налаштуйте новий ідентифікатор,відсканувавши QR-код нижче.</li>
-                        Після сканування, натисніть,будь ласка, <a href="{{ url_for("account_bp.account")}}"> на це посилання</a>.</li>
+                        Після сканування, натисніть, будь ласка, <a href="{{ url_for("account_bp.account")}}"> на це посилання</a>.</li>
                       </ul>
                 </h4>
                 <form id="contactForm" action={{url_for("auth_bp.two_factor_auth")}} method="POST" novalidate>
-                    <img src="data:image/png;base64,{{ qr_code_base64 }}" width="150vh" alt="QR Code for 2FA">
-                    <p class="text-white-50 mb-5">
+                    <img src="data:image/png;base64,{{ qr_code_base64 }}" width="250vh" align="" alt="QR Code for 2FA">
+                    <p class="text-black-50 mb-5">
                         Або вручну введіть цей код у додатку: <strong>{{ current_user.secret_token }}</strong>
                     </p>
                     <hr>

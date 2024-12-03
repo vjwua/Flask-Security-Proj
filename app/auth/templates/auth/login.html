@@ -24,20 +24,23 @@
                     <div class="form-floating mb-3">
                         {{ render_field(form.password)}}
                     </div>
-                    <div class="form-floating mb-3">
+                    <div class="form-floating mb-3 d-flex justify-content-center">
                         <div class="form-check mb-3">
                             {{form.remember}} {{form.remember.label}} 
                         </div>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div class="form-floating mb-3 d-flex justify-content-around">
                         <div class="form-check mb-3">
                             {{ captcha_html(captcha)|safe }}
                         </div>
+                        <div class="form-check mb-3">
+                            {{form.submit(class_='btn btn-primary btn-xl ')}}
+                        </div>
                     </div>
-                    {{form.submit(class_='btn btn-primary btn-xl ')}}
                 </form>
                 <br>
                 <h4 class="text-center">Немає аккаунту? Ви можете <a href={{url_for("auth_bp.register")}}>зареєструватися</a></h4>
+                <h4 class="text-center">Втрачений пароль? Ви можете <a href={{url_for("account_bp.change_password_request")}}>його відновити</a></h4>
                 <h4 class="text-center">Увійти за допомогою <a href="{{ url_for("auth_bp.oauth2_authorize", provider='google') }}">Google</a></h4>
             </div>
         </div>
